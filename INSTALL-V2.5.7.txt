@@ -1,0 +1,20 @@
+KATTERUMS JAKTLAG v2.5.7 - KOMPLETT PAKET
+
+Bygger vidare direkt på v2.5.6 utan att ändra jaktdata eller Supabase-tabeller.
+
+Rättat i v2.5.7:
+- Ny unik cacheversion för index, app, cloud och CSS.
+- Service Worker registreras med updateViaCache: none.
+- Appen laddas om en gång när den nya Service Workern tar kontroll.
+- Gamla cacheversioner tas bort vid aktivering.
+- manifest.webmanifest ingår nu i paketet, så Service Worker-installationen inte stoppas av en saknad fil.
+- Synligt versionsnummer är konsekvent 2.5.7.
+
+Installation:
+1. Ersätt samtliga filer i GitHub-repots rot med filerna i detta paket.
+2. Kontrollera att manifest.webmanifest också laddas upp.
+3. Vänta tills GitHub Pages visar den nya publiceringen som klar.
+4. Öppna appen. Den kan ladda om automatiskt en gång.
+5. Kontrollera att huvudet visar Jaktlagsappen v2.5.7 på både telefon och dator.
+
+Befintlig login, pass, observationer, fällt vilt och kartgräns lämnas oförändrade.
